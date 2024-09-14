@@ -1,9 +1,11 @@
 import { useState } from "react";
+import TextExpanderContainer from "./textexpander";
 
 export default function App() {
     return (
         <div>
             <Calculator />
+            <TextExpanderContainer />
         </div>
     );
 }
